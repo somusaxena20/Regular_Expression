@@ -1,0 +1,7 @@
+[abc] -> either 'a' or 'b' or 'c'
+[^abc]-> expect 'a' or 'b' or 'c'
+[a-z] -> any lower case letter
+[A-Z] -> any upper case letter
+[a-z A-Z] -> any case alphabet
+[0-9] -> any digit from 0-9
+[0-9 A-Z a-z] -> any alphanumeric symbol
